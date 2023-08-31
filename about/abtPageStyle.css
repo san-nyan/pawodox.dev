@@ -69,9 +69,7 @@
   border-right: 0.08em
   solid #F5F5F5
 }
-@keyframes blinker {  
-  50% { opacity: 0; }
-}
+
 
 .logo_container{
   height: 100%;
