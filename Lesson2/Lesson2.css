@@ -14,7 +14,7 @@
 }
 
   hr {
-  width: 50%;
+  width: 80%;
   color: #f5f5f5;
   }
 
@@ -22,15 +22,40 @@
      font-size: 96px;
      color: #F5F5F5;
      font-weight: bold;
-     text-align: center;
      font-family: 'Poppins', sans-serif;
 }
+h2 {
+  font-size: 72px;
+  color: #F5F5F5;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+summary {
+  font-size: 72px;
+  color: #F5F5F5;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
  p {
-     font-size: 60px;
+     font-size: 40px;
      font-weight: bold;
      color: #F5F5F5FE;
      letter-spacing: 0.2px;
      font-family: "Roboto" 
+}
+pre {
+  font-size: 40px;
+  font-weight: bold;
+  color: #F5F5F5FE;
+  letter-spacing: 0.2px;
+  font-family: "Roboto" 
+}
+nav {
+  font-size: 40px;
+  font-weight: bold;
+  color: #F5F5F5FE;
+  letter-spacing: 0.2px;
+  font-family: "Roboto" 
 }
  a:link {
      text-decoration: none;
@@ -50,8 +75,8 @@
      position: fixed;
      text-align: center;
      bottom: 0px;
-     width: 80%;
      margin: 10px;
+     width: 100%;
 }
  .header{
   width: 100%;
