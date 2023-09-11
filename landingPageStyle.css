@@ -3,6 +3,7 @@
  html {
      height: 100%;
      width: 100%;
+     scroll-behavior: smooth;
 }
  body {
      height: fill;
@@ -27,6 +28,13 @@
      font-weight: bold;
      text-align: center;
      font-family: 'Poppins', sans-serif;
+}
+h2 {
+  font-size: 72px;
+  color: #F5F5F5;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
  p {
      font-size: 60px;
@@ -53,7 +61,7 @@
      position: fixed;
      text-align: center;
      bottom: 0px;
-     width: 80%;
+     width: 95%;
      margin: 10px;
 }
  .header{
@@ -120,4 +128,8 @@
   color: #f5f5f5;  
   font-size: 25px;
   cursor: pointer;
+}
+
+.centerContainer {
+  text-align: center;
 }
