@@ -15,6 +15,8 @@
      background-color:#1f1e33;
      background-attachment: fixed;
      scroll-behavior: smooth;
+     font-family: "Roboto";
+     font-size: 1em;
 }
 
   hr {
@@ -23,25 +25,55 @@
   }
 
  h1 {
-     font-size: 96px;
+     font-size: 6.5em;
      color: #F5F5F5;
      font-weight: bold;
      text-align: center;
      font-family: 'Poppins', sans-serif;
+     text-shadow: 1px 1px #1f1e3399;
 }
 h2 {
-  font-size: 72px;
+  font-size: 5em;
   color: #F5F5F5;
   font-weight: bold;
   text-align: center;
   font-family: 'Poppins', sans-serif;
+  text-shadow: 1px 1px #1f1e3399;
+}
+h3 {
+  font-size: 4em;
+  color: #F5F5F5;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 1px 1px #1f1e3399;
+  background-color: #1f1e3399;
 }
  p {
-     font-size: 60px;
+     font-size: 3em;
      font-weight: bold;
      color: #F5F5F5FE;
      letter-spacing: 0.2px;
      font-family: "Roboto" 
+}
+summary{
+  font-size: 4em;
+  color: #F5F5F5;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 1px 1px #1f1e3399;
+}
+details{
+  background-color: #1f1e3399;
+}
+li{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: #F5F5F5FE;
+    letter-spacing: 0.2px;
+    font-family: "Roboto";
 }
  a:link {
      text-decoration: none;
@@ -52,9 +84,12 @@ h2 {
      color: white;
 }
  a:hover {
+     color: white;
      text-decoration: underline;
+     background-color: #1f1e3399;
 }
  a:active {
+     color: white;
      text-decoration: underline;
 }
  .footer{
@@ -66,7 +101,7 @@ h2 {
 }
  .header{
   width: 100%;
-  height: 100px;
+  height: 6em;
   display:block;
   background-color: #00001133;
   backdrop-filter: blur(10px);
@@ -94,6 +129,7 @@ h2 {
   display: table;
   float: left;
   background-image: "pawodox_logo_square";
+  position:fixed;
 }
 
 .logo_container h2{
@@ -102,7 +138,7 @@ h2 {
   display: table-cell;
   vertical-align: middle;
   letter-spacing: 1.2px;
-  font-size: 50px;
+  font-size: 3em;
   cursor: pointer;
 }
 
@@ -115,10 +151,10 @@ h2 {
   height: 100%;
   display: table;
   float: left;
-  padding: 0px 20px;
+  padding: 0px 1.25em;
   font-family: "Poppins";
   font-weight: bold;
-  letter-spacing: 1.2px;
+  letter-spacing: 0.08em;
 }
 
 .navigation a li{
@@ -126,10 +162,11 @@ h2 {
   vertical-align: middle;
   height: 100%;
   color: #f5f5f5;  
-  font-size: 25px;
+  font-size: 1.5em;
   cursor: pointer;
 }
 
 .centerContainer {
   text-align: center;
 }
+
